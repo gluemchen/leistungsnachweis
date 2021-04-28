@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
-:root{
+/* :root{
 
-}
+} */
 
 .body{
     height: 99vh;
@@ -10,19 +10,19 @@
 }
 
 .header{
- /*   font-size: 10vmin;
-    display: block;
-    justify-content: center;
-    align-items: center;
+    /* font-size: 10vmin; */
+    /* display: block; */
+    /* justify-content: center;
+    align-items: center; */
     height: 15%;
     width: 100%;
     background-color: rgb(196, 80, 80);
-    margin-bottom: 15%;*/
+    /* margin-bottom: 15%; */
 }
 
 .center{
-    padding-top: 10%;
-    font-size: 10vmin;
+    /* padding-top: 10%; */
+    /* font-size: 10vmin; */
     /*justify-content: center;
     align-items: center;*/
     height: 75%;
@@ -31,9 +31,9 @@
 }
 
 .footer{
-    font-size: 10vmin;
-    justify-content: center;
-    align-items: center;
+    /* font-size: 10vmin; */
+    /* justify-content: center;
+    align-items: center; */
     height: 10%;
     width: 100%;
     background-color: rgb(83, 199, 83);    

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 /* :root{
 
 } */
@@ -7,22 +11,26 @@
 .body{
     height: 100vh;
     width: 100vw;
+    background-color: blue;
+}
+
+.navcontainer{
+    box-sizing: ;
 }
 
 .header{
-    height: 15%;
+    /* height: 15%; */
     width: 100%;
-    
 }
 
 .center{
     overflow: scroll;
-    height: 75%;
+    height: 85%;
     width: 100%;
 }
 
 .footer{
-    height: 10%;
+    height: 15%;
     width: 100%;
     background-color: rgb(83, 199, 83);
 }
@@ -45,4 +53,9 @@
 .gallery img:hover{
 filter: grayscale(100%);
 transform: scale(1.1);
+}
+@media screen and (min-width: 1440px) {
+        .center{
+            overflow: hidden;
+        }
 }

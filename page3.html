@@ -57,15 +57,24 @@
             <div class="row">
                 <form action="form_output.html" method="GET">
                     <div>
-                        <label>Name</label>
-                        <input>
+                        <label class="label" for="vorname">Vorname</label>
+                        <input type="text" name="vorname" id="nachname" placeholder="Vorname hier eintragen" required>
                     </div>
                     <div>
-                        <label>Password</label>
-                        <input>
+                        <label class="label" for="nachname">Nachname</label>
+                        <input type="text" name="nachname" id="nachname" placeholder="Nachname hier eintragen" required>
                     </div>
                     <div>
-                        <button>Submit</button>
+                        <label class="label" for="email">E-Mail</label>
+                        <input type="email" name="email" id="email" placeholder="E-Mail hier eintragen" required>
+                    </div>
+                    <div>
+                        <label class="label" for="url">URL</label>
+                        <input type="url" name="url" id="url" placeholder="Hier URL eintragen">
+                    </div>
+                    <div>
+                        <button class="button" type="reset">Reset</button>
+                        <button class="button" type="submit">Submit</button>
                     </div>
                 </form>
             </div>

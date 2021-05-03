@@ -55,7 +55,15 @@
     <div class="center">
         <div class="container">
             <div class="row">
-                <script src=""></script>
+                <div id="output"></div>
+                <a href="page3.html">Back to Form</a>
+                <script>
+                    const resultsList = document.getElementById('output')
+                    new URLSearchParams(window.location.search).forEach((value, name) => {
+                        resultsList.append(`${name}: ${value}`)
+                        resultsList.append(document.createElement('br'))
+                    })
+                </script>
             </div>
         </div>
     </div>

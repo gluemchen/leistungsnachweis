@@ -45,42 +45,42 @@
         </div>
     </nav>
 
-    <div class="header">
-        <div class="container">
-            <div class="row">
-                <h1>Auf dieser </h1>
-            </div>
+    <form>
+        <!-- Name input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form4Example1" class="form-control" />
+          <label class="form-label" for="form4Example1">Name</label>
         </div>
-    </div>
-
-    <div class="center">
-        <div class="container">
-            <div class="row">
-                <form action="form_output.html" method="GET">
-                    <div>
-                        <label class="label" for="vorname">Vorname</label>
-                        <input type="text" name="vorname" id="nachname" placeholder="Vorname hier eintragen" required>
-                    </div>
-                    <div>
-                        <label class="label" for="nachname">Nachname</label>
-                        <input type="text" name="nachname" id="nachname" placeholder="Nachname hier eintragen" required>
-                    </div>
-                    <div>
-                        <label class="label" for="email">E-Mail</label>
-                        <input type="email" name="email" id="emai" placeholder="E-Mail hier eintragen"  required>
-                    </div>
-                    <div>
-                        <label class="label" for="url">URL</label>
-                        <input type="url" name="url" id="url" placeholder="Hier URL eintragen">
-                    </div>
-                    <div>
-                        <button class="button" type="reset">Reset</button>
-                        <button class="button" type="submit">Submit</button>
-                    </div>
-                </form>
-            </div>
+      
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form4Example2" class="form-control" />
+          <label class="form-label" for="form4Example2">Email address</label>
         </div>
-    </div>
+      
+        <!-- Message input -->
+        <div class="form-outline mb-4">
+          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+          <label class="form-label" for="form4Example3">Message</label>
+        </div>
+      
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input
+            class="form-check-input me-2"
+            type="checkbox"
+            value=""
+            id="form4Example4"
+            checked
+          />
+          <label class="form-check-label" for="form4Example4">
+            Send me a copy of this message
+          </label>
+        </div>
+      
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+      </form>
 
     <div class="footer">
         <div class="container">

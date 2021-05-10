@@ -20,6 +20,9 @@ body{
 
 /* Bootstrap Navigation Bar */
 
+.navbar .navbar-nav .navbar-link:hover{
+
+}
 .navbar{
 background-color: black !important;
 }
@@ -40,6 +43,7 @@ background-color: black !important;
 /* Inner Containers*/
 
 .body{
+    align-items: center;
     height: 85%;
     padding-top: 70px;
     padding-bottom: 150px;
@@ -59,7 +63,12 @@ background-color: black !important;
 }
 
 .form{
-    position: relative;
+    : center;
+}
+
+.centerform{
+    width: 80%;
+    height: 75%
 }
 
 /* Lightbox */

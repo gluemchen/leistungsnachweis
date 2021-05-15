@@ -14,14 +14,18 @@
 
 body{
     font-family: 'Diablo Heavy';
-    height: 100vh;
-    width: 100vw;
+    background-color: #1A1A1A;
 }
 
 /* Bootstrap Navigation Bar */
 
 .navbar{
 background-color: black !important;
+}
+
+.dropdown-menu{
+background-color: black !important;
+text-align: center;
 }
 
 .nav-item{
@@ -33,49 +37,48 @@ background-color: black !important;
 }
 
 .brand{
-    height: 80px;
-    width: 170px;
+    height: 75px;
+    width: 160px;
 }
 
 /* Inner Containers*/
 
+.header{
+    height: 108px;
+}
+
 .body{
-    height: 85%;
-    padding-top: 70px;
-    padding-bottom: 150px;
-    overflow: scroll;
-    background-color: #1A1A1A;
+    margin-bottom: 108px;
+    display: grid;
     color: #826939;
-}
-
-.formcenter{
-    
-    max-width: 50%;
-}
-
-.footer{
-    text-align: center;
-    background-color: black;
-    color: #826939;
-}
-
-.footertext p{
-    padding-top: 10px;
 }
 
 .form{
-    align-content: center;
+    align-content: center !important;
+}
+
+.formcenter{
+    margin-top: 40px !important;
+}
+
+footer{
+    background-color: black !important;
+    color: #826939 !important;
+}
+
+footer img{
+    height: 25px;
 }
 
 /* Lightbox */
 
 .gallery{
-    margin: 0px 0px;
+    margin: 15px;
 }
 
 .gallery img{
     transition: 1s;
-    padding: 30px;
+    padding: 15px;
 }
 
 .gallery img:hover{
@@ -83,49 +86,35 @@ filter: grayscale(100%);
 transform: scale(1.1);
 }
 
-@media screen and (max-width: 425px) {
-    .navbar-brand{
-        position: center;
-    }
-    .body{
-        text-align: center;
-    }
-    .footer{
-        height: 20%;
-    }
-    
-}
-
-@media screen and (min-width: 426px) {
-    .navbar-brand{
-        position: center;
-    }
-    .body{
-        text-align: center;
-    }
-    .footer{
-        height: 20%;
-    }
-    
-}
-
-@media screen and (min-width: 576px) {
-        body{
-            overflow: hidden;
-        }
-        .description {
-            margin: 30px;
-        }
-        .footer{
-            height: 10%;
-        }
-}
-
-.description h3{
-    font-size: 15px;
+/* .description h3{
     font-weight: bolder;
 }
 
 .description p{
-    font-size: 12px;
+    
+} */
+
+@media screen and (max-width: 425px) {
+    /* .navbar-brand{
+        position: center;
+    } */
+    }
+    
+}
+
+@media screen and (min-width: 320px) {
+    /* .navbar-brand{
+        position: center;
+    } */
+    
+}
+
+@media screen and (min-width: 576px) {
+        /* .description {
+            margin: 30px;
+        } */
+        .formcenter{
+            margin: auto;
+            width: 45%;
+        }
 }

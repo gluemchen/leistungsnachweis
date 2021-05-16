@@ -17,21 +17,32 @@ body{
     background-color: #1A1A1A;
 }
 
+/* Bootstrap footer */
+
+footer{
+    background-color: black !important;
+    color: #826939 !important;
+}
+
+footer img{
+    height: 25px;
+}
+
 /* Bootstrap Navigation Bar */
 
 .navbar{
-background-color: black !important;
+    background-color: black !important;
 }
 
 .dropdown-menu{
-background-color: black !important;
-text-align: center;
+    background-color: black !important;
+    text-align: center;
 }
 
 .nav-item{
     background-color: transparent !important;
-    text-align: center;
 }
+
 .nav-item a{
     color: #826939 !important;
 }
@@ -49,7 +60,6 @@ text-align: center;
 
 .body{
     margin-bottom: 108px;
-    display: grid;
     color: #826939;
 }
 
@@ -61,16 +71,14 @@ text-align: center;
     margin-top: 40px !important;
 }
 
-footer{
-    background-color: black !important;
-    color: #826939 !important;
-}
-
-footer img{
-    height: 25px;
+.description{
+    ;
 }
 
 /* Lightbox */
+.mygallery {
+    align-content: center;
+}
 
 .gallery{
     margin: 15px;
@@ -82,39 +90,38 @@ footer img{
 }
 
 .gallery img:hover{
-filter: grayscale(100%);
-transform: scale(1.1);
+    filter: grayscale(100%);
+    transform: scale(1.1);
 }
 
-/* .description h3{
-    font-weight: bolder;
-}
+/* Media/Viewport */
 
-.description p{
-    
-} */
-
-@media screen and (max-width: 425px) {
-    /* .navbar-brand{
-        position: center;
-    } */
+@media screen and (max-width: 320px) {
+    .description{
+        max-width: 80%;
     }
-    
+    .gallery{
+        margin: 0%;
+    }
+    .gallery img{
+        padding: 10px;
+    }
 }
 
-@media screen and (min-width: 320px) {
-    /* .navbar-brand{
-        position: center;
-    } */
-    
+@media screen and (max-width: 375px) {
+    .description{
+        max-width: 80%;
+    }
+    .gallery{
+        margin: 0%;
+    }
+    .gallery img{
+        padding: 10px;
+    }
 }
 
 @media screen and (min-width: 576px) {
-        /* .description {
-            margin: 30px;
-        } */
         .formcenter{
-            margin: auto;
             width: 45%;
         }
 }
